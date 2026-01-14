@@ -26,9 +26,16 @@ Each morning and evening I filled out a google form that I created to try and qu
 - PM_Form_(Responses).csv
 
 
-## Shared
-Data_Loading.pynb is a script that reads in the raw csv data, cleans the dataset, re-assigns column names, deals with converting timestamps so they are compatible to merge datasets in the analyses 
+## Data Processing 
+All raw CSV files are ingested and standardized using a shared preprocessing notebook  
+[`Data_Loading.ipynb`](shared/Data_Loading.ipynb
 
+This notebook handles:
+- reading and validating raw CSV inputs
+- cleaning and standardizing datasets
+- renaming columns for consistency across sources
+- converting and aligning timestamps to enable dataset merging in downstream analyses
+  
 ## Analyses
 I completed 5 separate analyses centered around the following questions:
 #### How Does Weather Affect How I Feel and What I Do?
