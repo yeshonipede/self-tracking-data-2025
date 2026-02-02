@@ -46,6 +46,7 @@ I completed 5 separate analyses centered around the following questions:
 
 ## How Does Weather Affect How I Feel and What I Do?
 I am someone who has always felt like the weather noticeably affects how I feel. A question that I answer each morning is “how excited do I feel about the weather today?”. I answered the question from 1 (“it is scary and I want to avoid outside”) to 5 (“the weather is great and exciting”). Pairing these responses with a weather dataset and my Ringconn smart ring data allowed me to answer a few key questions:
+
 #### Which weather variables carried the most weight in my daily weather ratings?
 To better understand how different weather variables relate to my overall weather optimism, I trained a Random Forest model using daily weather variables (temp, day length, precipitation, and wind) to predict my self-reported AM weather optimism score. I split the data into training and test sets, then used the model’s feature importances to see which variables contributed most to its predictions.
 
